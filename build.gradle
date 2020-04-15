@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'ephraim'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/javax.websocket/javax.websocket-api
+    compile group: 'javax.websocket', name: 'javax.websocket-api', version: '1.1'
+    compile "com.beust:jcommander:1.+"
+    compile(files("libs/JLogger-1.0.jar"))
+    compile(files("libs/SignalSlot4J-2.0.jar"))
+    //testCompile group: 'junit', name: 'junit', version: '4.12'
+}
