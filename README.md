@@ -37,15 +37,15 @@ Usage: [options]
     ```
 *   Watch multiple paths. If there's space in your path, put em all in double quotes
     ```shell
-    $ WatchBoy-1.0.jar -p "C:\Users\ME\Codes\Java\projects\raw-ML,C:\Users\DELL\RevStar\Simple Ebay SDK"
+    $ WatchBoy-1.0.jar -p "C:\Users\ME\Codes\Java\projects\raw-ML,C:\Users\me\codes\Simple Ebay SDK"
     ```
 *   Put all logs in a logfile
     ```shell
-    $ WatchBoy-1.0.jar -lf logging.txt -p "C:\Users\ME\Codes\Java\projects\raw-ML,C:\Users\DELL\RevStar\Simple Ebay SDK"
+    $ WatchBoy-1.0.jar -lf logging.txt -p "C:\Users\ME\Codes\Java\projects\raw-ML,C:\Users\me\codes\Simple Ebay SDK"
     ```
 *   Log to both file and console. If no logfile is provided, all logs will go to the console only. If provided, all logs will go to the file only except:
     * verbosity level (ll) = 2
     * debug = true 
     ```shell
-    $ WatchBoy-1.0.jar -lf logging.txt -ll 2 -p "C:\Users\ME\Codes\Java\projects\raw-ML,C:\Users\DELL\RevStar\Simple Ebay SDK"
+    $ WatchBoy-1.0.jar -lf logging.txt -ll 2 -p "C:\Users\ME\Codes\Java\projects\raw-ML,C:\Users\me\codes\Simple Ebay SDK"
     ```
