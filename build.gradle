@@ -11,6 +11,16 @@ repositories {
     mavenCentral()
 }
 
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'WatchBoy',
+                'Implementation-Version': version
+    }
+    baseName = 'WatchBoy'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
 dependencies {
     // https://mvnrepository.com/artifact/javax.websocket/javax.websocket-api
     compile group: 'javax.websocket', name: 'javax.websocket-api', version: '1.1'
