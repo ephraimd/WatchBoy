@@ -1,5 +1,6 @@
 # WatchBoy
-Simple directory watching service that's really simple to extend and use
+Simple directory watching service that's really simple to extend and use.
+This is still pretty much work in progress as the final functionalities are yet to be coded
 
 ## How to use
 Here's the raw usage dump
